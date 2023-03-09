@@ -1,16 +1,16 @@
 /**
-* Passengers on the Cars, who can board Cars and get off them.
-* @author Linh Pham
-* @version 1.5
-* @since 8.3
-*/
+ * Passengers on the Cars, who can board Cars and get off them.
+ * @author Linh Pham
+ * @version 1.5
+ * @since 8.3
+ */
 public class Passenger {
 
   private String name;
 
   /** Creates a Passenger with name
-  * @param name The passenger's name.
-  */
+   * @param name The passenger's name.
+   */
   public Passenger(String name) {
     this.name = name;
   }
@@ -19,7 +19,7 @@ public class Passenger {
    * Returns the name of the passenger.
    * @return The passenger's name.
    */
-  public String getName(){
+  public String getName() {
     return this.name;
   }
 
