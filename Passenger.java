@@ -17,11 +17,10 @@ public class Passenger {
 
   /**
    * Returns the name of the passenger.
-   * @param Passenger A passenger's object.
    * @return The passenger's name.
    */
-  public String getName(Passenger s){
-    return s.name;
+  public String getName(){
+    return this.name;
   }
 
   /**
